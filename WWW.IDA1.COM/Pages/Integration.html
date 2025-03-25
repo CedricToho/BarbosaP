@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Integration</title>
+</head>
+<body>
+    <header>
+        <h1>Integration</h1>
+    </header>
+    <table border="1">
+        <tr>
+            <th><a href="Acceuil.html">Acceuil</a></th>
+            <th><a href="A propos.html">Apropos</a></th>
+            <th><a href="Galerie.html">Galerie</a></th>
+            <th><a href="Integration.html">Integration</a></th>
+            <th><a href="Nouscontacter.html">Nouscontacter</a></th>
+        </tr>
+        </table>
+        <form action="Integration.html">
+        <fieldset>
+            <legend>Formulaire d'inscription</legend>
+            <div>
+                <label>Votre nom</label>
+                <input type="text" name="nom">
+            </div><br>
+        <div>
+            <label>Votre premon</label>
+            <input type="text" name="prénom">
+        </div> <br>
+        <div>
+            <label>Age</label>
+            <input type="number" name="age">
+        </div><br>
+        <div>
+            <label>Pays</label>
+            <select name="Pays" id="page">
+            <option value="fr">France</option>
+            <option value="en">Angleterre</option>
+            <option value="esp">Espagne</option>
+            <option value="prg">Portugal</option>
+            <option value="rus">Russie</option>
+            <option value="civ">Côte d'Ivoire</option>
+            <option value="others">Autres</option>
+        </select>
+        </div><br>
+        <div>
+            <label>Sexe</label>
+            <div>
+                <input type="radio" name="sexe" id="masculin">
+                <label for="masculin">M</label>
+            </div>
+            <div>
+                <input type="radio" name="sexe" id="feminin">
+                <label for="feminin">F</label>
+            </div>
+        </div>
+        <div>
+            <label>Centre d'interet</label>
+            <div>
+                <input type="checkbox" name="musique" id="musique">
+                <label for="musique">musique</label>
+            </div>
+            <div>
+                <input type="checkbox" name="danse" id="danse">
+                <label for="danse">danse</label>
+            </div>
+        </div>
+        <div>
+            <label>Date de naissance</label>
+            <input type="date" name="naissance" id="Date naissance">
+        </div>
+        <div>
+            <p>Pourquoi voulez vous nous rejoindre</p>
+            <textarea></textarea>
+        </div>
+        <button>S'inscrire</button>
+        <button>Annuler</button>
+     </fieldset>
+    </form>
+</body>
+</html>
